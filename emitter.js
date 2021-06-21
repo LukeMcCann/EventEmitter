@@ -1,7 +1,8 @@
 'use strict';
 
+// Create an Emitter constructor function
 function Emitter() {
-    this.events = {}
+    this.events = {};
 }
 
 // listener  - the code that responds to the event, if we had
